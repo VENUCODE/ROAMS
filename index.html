@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROAMS_LOGIN</title><link rel="shortcut icon" href="	https://www.rguktong.ac.in/img/rguktlogo.png" type="image/x-icon">
+    
+    <style>
+        /* *{
+            outline: solid 2px black;
+        } */
+        body{
+            height: 100vh;
+            width:100vw;
+            margin:0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:1rem;
+         
+        }
+        .container{
+            height:80%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+          
+
+        }
+        .container .login_details{
+
+            max-width:1080px;
+            min-width:360px;
+            height:50%;
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .container img{
+            height:100px;
+            width: 90px;
+        }
+        form{
+            width: 100%;
+            margin:5%;
+        }
+     
+        form legend {
+            font-size: 1.5rem;
+            border:solid black 2px;
+            padding:3px;
+            color:white;
+            background-color: rgb(122, 16, 16);
+        }
+        .detail{
+            width:180px;
+            font-size:1.1rem;
+            font-weight: 700;
+            color:red;
+        }
+        table tr td input,select{
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 170px;
+            background:linear-gradient(rgba(230, 173, 178, 0.402),rgba(255, 183, 125, 0.402));
+        }
+        #pass{
+            width: 163px;
+        }
+      
+      
+    
+    </style>
+</head>
+<body> 
+    
+    <div class="container">    
+    <img src="https://www.rguktong.ac.in/img/rguktlogo.png" alt="rguktlogo" class="logo">
+    <div class="login_details">
+        <form action="" >
+            <fieldset>
+            <legend>ROAMS LOGIN</legend>
+            <table class="login_details">
+                <tr class="Department">
+                    <td class="detail">DEPARTMENT:</td>
+                    <td style="width:80%"> <select name="DEPARTMENT" id="DEPT">
+                        <option width="40px" selected>select department</option>
+                        <option value="CSE">CSE</option>
+                    </select></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr class="faculty_name">
+                    <td class="detail">FACULTY NAME:</td>
+                    <td><select name="NAME" id="Name" >
+                        <option selected>select faculty name</option>
+                        <option value="Palla Kristaiah">Palla Kristaiah</option>
+                        <option value="Sai Saranya">Sai Saranya</option>
+                        <option value="Pallakonda Archana">Pallakonda Archana</option>
+                        <option value="Mohan Rao G">Mohan Rao G</option>
+                        <option value="Prasannanjeneya Reddy V">Prasannanjeneya Reddy V</option>
+                        <option value="Beerala Murali">Beerala Murali</option>
+                        <option value="T Sreekanth">T Sreekanth</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td class="detail">PASSWORD:</td>
+                    <td><input type="password" name="password" id="pass"></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><input type="reset"></td>
+                    <td><input type="submit" class="submit"></td>
+                </tr>
+                <tr></tr>
+            </table>
+            
+            
+            
+        
+        </fieldset>
+        </form>
+    </div>
+</div>
+</body>
+</html>
